@@ -17,3 +17,25 @@
     }
 }
 
+
+nav{
+    box-shadow: 1px 1px 5px gray;
+}
+
+
+.my_btn{
+
+        border: none;
+        border-radius: 20px;
+   
+        padding: 10px 20px;
+        background-color: orange;
+        
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    
+}
