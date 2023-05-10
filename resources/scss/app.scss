@@ -1,1 +1,19 @@
 @import '~bootstrap/scss/bootstrap';
+
+.title_container{
+    height: 200px;
+    background-image: url(../img/movie-roll.png);
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title{
+        height: 50px;
+        width: 300px;
+        background-color: white;
+        box-shadow: 1px 1px 5px gray;
+    }
+}
+
