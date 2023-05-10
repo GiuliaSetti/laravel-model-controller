@@ -7,5 +7,10 @@ use Illuminate\Http\Request;
 
 class MovieController extends Controller
 {
+    //funzione richiamate dalle rotte:
+
+    public function index(){
+        return view('home');
+    }
   
 }
